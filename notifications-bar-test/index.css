@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+button#open-notifications::after {
+  content: '';
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  border-radius: 50%;
+  padding: 0 2px;
+  z-index: 100;
+
+  line-height: 1;
+  background-color: red;
+}
+
+#notifications-list {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+
+  border: 1px solid grey;
+  padding: 1rem;
+
+  background-color: white;
+  list-style: inside;
+}
+
+main {
+  padding: 1rem;
+}

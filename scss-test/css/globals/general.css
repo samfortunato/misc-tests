@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+}
+
+.my-component {
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 1rem;
+}
+.my-component h1 {
+  margin: 0 0 1rem 0;
+}
+.my-component h2 {
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=general.css.map */
